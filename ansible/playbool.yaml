@@ -1,0 +1,7 @@
+---
+- name: It will be install docker for my servers
+  hosts: all
+  become: yes
+
+  roles:
+    - deploy_docker
